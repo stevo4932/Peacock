@@ -9,34 +9,18 @@
 	font-size: 250%;
 	text-align: center;
 	background: rgba(0,0,0,0.2);
+    color: white;
 }
 
 .links {
 	font-size: 200%;
+    color: white;
 	background: rgba(0,0,0,0.2);
 }
 
 /* unvisited link */
-a:link {
-    color: white;
-    text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-    color: white;
-    text-decoration: none;
-}
-
-/* mouse over link */
-a:hover {
-    color: white;
-    text-decoration: none;
-}
-
-/* selected link */
-a:active {
-    color: white;
+a.whitelink {
+    color:white;
     text-decoration: none;
 }
 

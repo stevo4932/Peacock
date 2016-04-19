@@ -1,0 +1,51 @@
+.image1 { 
+    background-image: url('http://wallpapercave.com/wp/1cIQnnC.jpg');
+    width:100%;
+    background-position:center;
+    height:575px;
+} 
+
+.centerh {
+	font-size: 250%;
+	text-align: center;
+	background: rgba(0,0,0,0.2);
+}
+
+.links {
+	font-size: 200%;
+	background: rgba(0,0,0,0.2);
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+#myCarousel {
+  margin-top: 40px;
+}
+
+.carousel-linked-nav,
+.item img {
+  display: block; 
+  margin: 0 auto;
+}
